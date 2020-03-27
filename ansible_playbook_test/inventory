@@ -1,8 +1,9 @@
 [test]
-40.69.63.132
+23.101.48.228
 13.74.47.35
+40.115.122.152
 
 [test:vars]
 ansible_user=tinokingstone
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
-ansible_ssh_private_key_file=~/.ssh/ansible_id_rsa
+ansible_ssh_private_key_file=~/.ssh/id_rsa

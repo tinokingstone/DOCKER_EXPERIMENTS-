@@ -1,4 +1,4 @@
 - hosts: test
   tasks:
-  - name: "Ping {{ plug }}"
+  - name: "Ping {{ inventory_hostname }}"
     ping:
